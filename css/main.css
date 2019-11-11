@@ -14,7 +14,7 @@ html {
 h1 {
   color: #990073;
   filter: drop-shadow(1px 1.5px rgba(0, 0, 0, .2));
-  transform-origin: left;
+  transform-origin: left-center;
   transform: rotate(-8deg);
 }
 
@@ -22,7 +22,7 @@ p {
   color: #c09;
   max-width: 19em;
   filter: drop-shadow(1px 1.5px rgba(0, 0, 0, .2));
-  transform-origin: left;
+  transform-origin: left-center;
   transform: rotate(-4deg);
 
 }
@@ -36,4 +36,8 @@ p {
   background-color: rgba(99,00,73, .1);
   border-color: #990073;
   border: solid 2px #990073;
+}
+
+.text {
+  transition:
 }
